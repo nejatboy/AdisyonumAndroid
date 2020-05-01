@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/yoneticiNavRestoranlar"
+        android:icon="@drawable/restoran_icon"
+        android:title="Restoranlar" />
+    <item
+        android:id="@+id/yoneticiNavGarsonlar"
+        android:icon="@drawable/garson_icon"
+        android:title="Garsonlar" />
+    <item
+        android:id="@+id/yoneticiNavKategoriler"
+        android:icon="@drawable/kategori_icon"
+        android:title="Kategoriler" />
+    <item
+        android:id="@+id/yoneticiNavUrunler"
+        android:icon="@drawable/urun_icon"
+        android:title="Urunler" />
+</menu>

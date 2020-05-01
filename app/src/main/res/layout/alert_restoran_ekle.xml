@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/editTextAlertRestoranEkleRestoranAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Restoran Adı"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextAlertRestoranEkleMasaSayisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Masa Sayısı"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextAlertRestoranEkleKasaKullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Kasa Kullanıcı Adı"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextAlertRestoranEkleKasaSifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kasa Şifresi"
+        android:inputType="number" />
+
+</LinearLayout>

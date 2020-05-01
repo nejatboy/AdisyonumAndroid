@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonHesalAlNakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nakit" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHesalAlKrediKarti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kredi Kartı" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHesalAlMultinet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multinet" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHesalAlTicket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ticket" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHesalAlSodexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sodexo" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHesalAlSetcard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setcard" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHesalAlMetropol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metropol" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonDialogHesapAlTutariAl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_button"
+        android:text="Tutarı Al"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewHesapAlDialogMasaNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Masa: 1"
+        android:textColor="@color/primaryText"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDialogHesapAlTutariAl"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewHesapAlDialogMasaToplamTutar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="120 TL"
+        android:textColor="@color/primaryText"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewHesapAlDialogMasaNo"
+        app:layout_constraintStart_toStartOf="@+id/textViewHesapAlDialogMasaNo"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHesapAlDialogMasaNo" />
+
+    <EditText
+        android:id="@+id/editTextHesapAlDialogGirilenTutar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="12.5"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDialogHesapAlTutariAl"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHesapAlDialogMasaToplamTutar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

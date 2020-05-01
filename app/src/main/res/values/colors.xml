@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <color name="lightPrimaryColor">#D1C4E9</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="dividerColor">#BDBDBD</color>
+
+
+    <color name="yariSaydam">#22000000</color>
+
+    <color name="doluMasaHucreRengi">#88FF3D00</color>
+    <color name="bosMasaHucreRengi">#8D76FF03</color>
+    <color name="yazdirilmisMasaHucreRengi">#8F03A7FF</color>
+</resources>

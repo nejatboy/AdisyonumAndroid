@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "578145945103",
+    "firebase_url": "https://notificationandroid-e2456.firebaseio.com",
+    "project_id": "notificationandroid-e2456",
+    "storage_bucket": "notificationandroid-e2456.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578145945103:android:2fc1c251daf97e27f0c57a",
+        "android_client_info": {
+          "package_name": "com.nejatboy.adisyonum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578145945103-fvsl86enfjqsv63dq621suriqj5no675.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEs1pmzKDROva3fnKwVWXW8e6zLvz0bwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578145945103-fvsl86enfjqsv63dq621suriqj5no675.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

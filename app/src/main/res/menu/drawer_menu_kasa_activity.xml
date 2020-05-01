@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Raporlar">
+        <menu>
+            <item
+                android:id="@+id/actionDrawerMenuBugunkuRaporlar"
+                android:title="Bugünkü Raporlar" />
+            <item
+                android:id="@+id/actionDrawerMenuTumRaporlar"
+                android:title="Tüm Raporlar" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/actionDrawerMenuKasayiKapat"
+        android:title="Kasayı Kapat" />
+    <item
+        android:id="@+id/actionDrawerMenuCikisYap"
+        android:title="Çıkış Yap" />
+</menu>

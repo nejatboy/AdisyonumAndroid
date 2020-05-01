@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textViewDialogAnlikRaporKrediKarti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewDialogAnlikRaporMultinet"
+            app:layout_constraintStart_toStartOf="@+id/textViewDialogAnlikRaporMultinet"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDialogAnlikRaporNakit" />
+
+        <TextView
+            android:id="@+id/textViewDialogAnlikRaporNakit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewDialogAnlikRaporKrediKarti"
+            app:layout_constraintStart_toStartOf="@+id/textViewDialogAnlikRaporKrediKarti"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewDialogAnlikRaporMetropol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewDialogAnlikRaporToplam"
+            app:layout_constraintStart_toStartOf="@+id/textViewDialogAnlikRaporToplam"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDialogAnlikRaporSetcard" />
+
+        <TextView
+            android:id="@+id/textViewDialogAnlikRaporMultinet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewDialogAnlikRaporTicket"
+            app:layout_constraintStart_toStartOf="@+id/textViewDialogAnlikRaporTicket"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDialogAnlikRaporKrediKarti" />
+
+        <TextView
+            android:id="@+id/textViewDialogAnlikRaporToplam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="TextView"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDialogAnlikRaporMetropol" />
+
+        <TextView
+            android:id="@+id/textViewDialogAnlikRaporTicket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewDialogAnlikRaporSodexo"
+            app:layout_constraintStart_toStartOf="@+id/textViewDialogAnlikRaporSodexo"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDialogAnlikRaporMultinet" />
+
+        <TextView
+            android:id="@+id/textViewDialogAnlikRaporSodexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewDialogAnlikRaporSetcard"
+            app:layout_constraintStart_toStartOf="@+id/textViewDialogAnlikRaporSetcard"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDialogAnlikRaporTicket" />
+
+        <TextView
+            android:id="@+id/textViewDialogAnlikRaporSetcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewDialogAnlikRaporMetropol"
+            app:layout_constraintStart_toStartOf="@+id/textViewDialogAnlikRaporMetropol"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDialogAnlikRaporSodexo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutDialogAnlikRaporGoruntuleGarsonTutucu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
